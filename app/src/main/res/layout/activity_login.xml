@@ -29,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
+        android:id="@+id/etUsername"
         android:hint="Email or Phone"
         android:textColorHint="#FFFFFF"
         android:textColor="#FFFFFF"
@@ -41,6 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
+        android:id="@+id/etPassword"
         android:hint="Password"
         android:textColorHint="#FFFFFF"
         android:textColor="#FFFFFF"
@@ -53,6 +55,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
         android:text="LOG IN"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
@@ -66,7 +69,7 @@
         android:text="Sign Up for Facebook"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="200dp"
         android:layout_marginBottom="8dp" />
 
 
